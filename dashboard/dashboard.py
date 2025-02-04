@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-changping_df = pd.read_csv('../data/changping.csv')
+changping_df = pd.read_csv('data/changping.csv')
 
 changping_df["Tanggal"] = pd.to_datetime(changping_df["Tanggal"], errors="coerce")
 
